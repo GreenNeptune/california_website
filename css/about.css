@@ -1,0 +1,10 @@
+#id_about img{
+  width: 50%;
+  padding-bottom: 32px;
+  }
+@media screen and (max-width:767px){
+  #id_about img{
+    width: 100%;
+    margin: 0;
+    }
+}

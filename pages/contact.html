@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../bootstrap.min.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <title>California</title>
+  <script src="../jquery-3.5.1.min.js"></script>
+  <script src="../js/burger_nav.js"></script>
+  <script src="../js/contact.js"></script>
+</head>
+
+<body>
+  <!-- Nav-->
+  <header class="container-fluid bg-white">
+    <div class="container">
+      <div class="row justify-content-between align-items-center pt-3 pb-4 ">
+        <div id="id_logo" class="h1 font-weight-bold font-italic text-dark">
+          California
+        </div>
+        <nav id="id_nav_burger" class="d-md-block">
+          <a class="h5" href="../index.html">Home</a>
+          <a class="h5" href="./about.html">About</a>
+          <a class="h5" href="./faq.html">FAQ</a>
+          <a class="h5" href="./media.html">Media</a>
+          <a class="h5" href="./trivia.html">Trivia</a>
+          <a class="h5" href="./contact.html">Contact</a>
+        </nav>
+        <div class="d-md-none" style="cursor: pointer;" id="id_burger">
+          <i class="fa fa-bars" style="font-size: 2em;" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Nav-end -->
+
+  <div class="container-fluid" id="id_contact">
+    <div class="container py-5">
+      <h1 class="display-3 text-center mb-4 text-dark">Contact Us</h1>
+      <div class="d-flex flex-column justify-content-center align-items-center pb-5">
+        <form class="bg-light" id="id_form">
+          <div class="row border p-4 bg-white shadow">
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="h4">Name:</label>
+                <input type="text" class="form-control" id="id_name">
+                <small class="text-danger d-none">Name cannot be empty</small>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <label class="h4">Email:</label>
+                <input type="text" class="form-control" id="id_email">
+                <small class="text-danger d-none">Email must includes @ and .</small>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="form-group">
+                <label class="h4">Your message:</label>
+                <textarea class="form-control" rows="3" id="id_message"></textarea>
+                <small class="text-danger d-none">Message cannot be empty</small>
+              </div>
+              <div class="col-lg-2 px-0 ">
+                <button type="submit" class="btn btn-primary mb-2 w-100">Send</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="container-fluid bg-dark">
+    <div class="container">
+      <div class="row flex-md-row-reverse py-4 justify-content-center justify-content-md-between align-items-center">
+        <div class="social_links">
+          <a href="https://www.facebook.com/VisitCalifornia/">
+            <i class="text-white p-2 fa fa-2x fa-facebook-official" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/VisitCA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+            <i class="text-white p-2 fa fa-2x fa-twitter-square" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/visitcalifornia/">
+            <i class="text-white p-2 fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/user/VisitCA">
+            <i class="text-white p-2 fa fa-2x fa-youtube-play" aria-hidden="true"></i></a>
+        </div>
+        <p class="text-white-50 text-center my-4 m-md-0">
+          All right reserved © Dvir Rabbani 2021
+        </p>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- footer-end -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>

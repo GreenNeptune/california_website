@@ -1,0 +1,90 @@
+
+#carouselExampleIndicators .carousel-inner img{
+  height: 700px;
+}
+
+.main .carousel-item h5{
+  text-shadow: 3px 5px 2px #474747; 
+}
+
+main h1{
+position: relative;
+}
+
+main h1::after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: rgb(255,165,0);
+  background: linear-gradient(180deg, rgba(255,165,0,1) 0%, rgba(255,175,27,0.9752275910364145) 90%);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+}
+
+main .banner-left img, main .banner-right img{
+ width: 100%;
+ background-size: contain; 
+}
+
+
+footer{
+  min-height: 50px;
+}
+
+.funders .box_zoom-img{
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.funders .box_zoom-img img{
+  width: 100%;
+  transition: all 0.8s ease-in-out;
+}
+
+.funders .box_zoom-img:hover img{
+  transform: scale(1.1);
+}
+
+.funders .description{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white; 
+}
+
+.funders .description h3{
+  text-shadow: 1px 1px 2px black;
+}
+.funders .description h4{
+  text-shadow: 1px 1px 2px black;
+}
+
+@media screen and (max-width:767px){
+  main .main-carousel-sm-img{
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 70vh;
+    background-image: url("../images/slider/disneyland_night.jpg");
+  }
+  main h5{
+    text-shadow: 3px 5px 2px #474747; 
+  }
+
+  main .banner-left{
+    margin-bottom: 32px;
+  } 
+  
+  main .banner-right{
+    margin-top: 32px;
+   }
+
+}
